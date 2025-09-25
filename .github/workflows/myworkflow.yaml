@@ -1,8 +1,8 @@
 name: New demo workflow
 
-On: Push
+On: push
 
-Jobs:
+jobs:
   first Job:
     runs-on: Ubuntu-latest
     steps:
