@@ -1,0 +1,16 @@
+name: New demo workflow
+
+On: Push
+
+Jobs:
+  first Job:
+    runs-on: Ubuntu-latest
+    steps:
+    - name: Welcome Message
+      run: echo "Welcome to Github actions learing"
+
+    - name: list files
+      run: ls -l
+
+    -name: read files
+      run: cat readme.md
