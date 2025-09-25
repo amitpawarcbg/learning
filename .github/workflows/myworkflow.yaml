@@ -3,7 +3,7 @@ name: New demo workflow
 on: push
 
 jobs:
-  first Job:
+  first_job:
     runs-on: Ubuntu-latest
     steps:
     - name: Welcome Message
