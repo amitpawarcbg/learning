@@ -1,6 +1,6 @@
 name: New demo workflow
 
-On: push
+on: push
 
 jobs:
   first Job:
